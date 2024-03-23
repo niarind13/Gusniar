@@ -1,0 +1,470 @@
+print("tugas pemograman lanjut")
+import sys
+print (sys.version)
+
+if 6 > 7:
+    print("six is greater than seven")
+    
+x = 5
+y = "hello, world!"
+
+#python comment
+#this is a comment
+print ("hello, world!")
+#print ("cheers, Ber")
+print ("cheers, Ber")
+
+#python variables
+x = 5 
+y = "Agus"
+print (y)
+print (x)
+a = str (9)
+b = int (5)
+c = float (4)
+print (a)
+print (b)
+print (c)
+x = 5
+y = "kili"
+print(type(x))
+print(type(y))
+x = "milo"
+# is the ame as
+x = 'milo'
+a = 5
+A = "Sally"
+# A will not overwrite A
+myvar = "milo"
+my_var = "milo"
+_my_var = "milo"
+myVar = "milo"
+MYVAR = "milo"
+myvar2 = "milo"
+x, y, z = "orange","aple","banana"
+print (x)
+print (y)
+print (z)
+x = y = z = "strawberry"
+print (x)
+print (y)
+print (z)
+fruits = ["apple", "banana", "cherry"]
+x,y,z = fruits
+print (x)
+print (y)
+print (z)
+x = "python is awesome"
+print (x)
+x ="python"
+y ="is"
+z ="awesome"
+print (x,y,z)
+x ="python"
+y ="is"
+z ="awesome"
+print (x + y + z)
+x = 10
+y = 34
+print (x + y)
+x = 9
+y = "john"
+print (x,y)
+x = "awesome"
+def myfunc():
+    print ("Python is" + x)
+myfunc()
+x = "awesome"
+def myfunc():
+  x = "fantastic"
+  print("Python is " + x)
+myfunc()
+print("Python is " + x)
+def myfunc():
+  global x
+  x = "fantastic"
+myfunc()
+print("Python is " + x)
+x = "awesome"
+def myfunc():
+  global x
+  x = "fantastic"
+myfunc()
+print("Python is " + x)
+
+#python numbers
+x = 5
+print(type(x))
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+print(type(x))
+print(type(y))
+print(type(z))
+x = 1
+y = 35656222554887711
+z = -3255522
+print(type(x))
+print(type(y))
+print(type(z))
+x = 1.10
+y = 1.0
+z = -35.59
+print(type(x))
+print(type(y))
+print(type(z))
+x = 35e3
+y = 12E4
+z = -87.7e100
+print(type(x))
+print(type(y))
+print(type(z))
+x = 35e3
+y = 12E4
+z = -87.7e100
+print(type(x))
+print(type(y))
+print(type(z))
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+#convert from int to float:
+a = float(x)
+#convert from float to int:
+b = int(y)
+#convert from int to complex:
+c = complex(x)
+print(a)
+print(b)
+print(c)
+print(type(a))
+print(type(b))
+print(type(c))
+import random
+print(random.randrange(1, 10))
+
+#python casting
+x = int(1)   # x will be 1
+y = int(2.8) # y will be 2
+z = int("3") # z will be 3
+x = float(1)     # x will be 1.0
+y = float(2.8)   # y will be 2.8
+z = float("3")   # z will be 3.0
+w = float("4.2") # w will be 4.2
+x = str("s1") # x will be 's1'
+y = str(2)    # y will be '2'
+z = str(3.0)  # z will be '3.0'
+
+#python strings
+a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(a)
+a = "Hello, World!"
+print(a[1])
+for x in "banana":
+  print(x)
+a = "gusniar"
+print(len(a))
+txt = "The best things in life are free!"
+print("free" in txt)
+txt = "The best things in life are free!"
+if "free" in txt:
+  print("Yes, 'free' is present.")
+txt = "The best things in life are free!"
+print("expensive" not in txt)
+txt = "The best things in life are free!"
+if "expensive" not in txt:
+  print("No, 'expensive' is NOT present.")
+b = "Hello, World!"
+print(b[2:5])
+b = "Hello, World!"
+print(b[:5])
+b = "Hello, World!"
+print(b[2:])
+b = "Hello, World!"
+print(b[-5:-2])
+a = "Hello, World!"
+print(a.upper())
+a = " Hello, World! "
+print(a.strip()) # returns "Hello, World!"
+a = "Hello, World!"
+print(a.replace("H", "J"))
+a = "Hello, World!"
+print(a.split(",")) # returns ['Hello', ' World!']
+a = "Hello"
+b = "World"
+c = a + b
+print(c)
+a = "Hello"
+b = "World"
+c = a + " " + b
+print(c)
+age = 36
+txt = "My name is John, and I am {}"
+print(txt.format(age))
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want {} pieces of item {} for {} dollars."
+print(myorder.format(quantity, itemno, price))
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want to pay {2} dollars for {0} pieces of item {1}."
+print(myorder.format(quantity, itemno, price))
+txt = "We are the so-called \"Vikings\" from the north."
+
+#python boolean
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+else:
+  print("b is not greater than a")
+  print(bool("Hello"))
+print(bool(15))
+x = "Hello"
+y = 15
+print(bool(x))
+print(bool(y))
+bool("abc")
+bool(123)
+bool(["apple", "cherry", "banana"])
+bool(False)
+bool(None)
+bool(0)
+bool("")
+bool(())
+bool([])
+bool({})
+class myclass():
+  def __len__(self):
+    return 0
+myobj = myclass()
+print(bool(myobj))
+def myFunction() :
+  return True
+print(myFunction())
+def myFunction() :
+  return True
+
+if myFunction():
+  print("YES!")
+else:
+  print("NO!")
+  x = 200
+print(isinstance(x, int))
+
+#python operators
+print (10+9)
+print((6 + 3) - (6 + 3))
+print(100 + 5 * 3)
+print(5 + 4 - 7 + 3)
+
+#python list
+thislist = ["apple", "banana", "cherry"]
+print(thislist)
+thislist = ["apple", "banana", "cherry", "apple", "cherry"]
+print(thislist)
+thislist = ["apple", "banana", "cherry"]
+print(len(thislist))
+list1 = ["apple", "banana", "cherry"]
+list2 = [1, 5, 7, 9, 3]
+list3 = [True, False, False]
+list1 = ["abc", 34, True, 40, "male"]
+mylist = ["apple", "banana", "cherry"]
+print(type(mylist))
+thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
+print(thislist)
+thislist = ["apple", "banana", "cherry"]
+print(thislist[1])
+thislist = ["apple", "banana", "cherry"]
+print(thislist[-1])
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[2:5])
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[:4])
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[2:])
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[-4:-1])
+thislist = ["apple", "banana", "cherry"]
+if "apple" in thislist:
+  print("Yes, 'apple' is in the fruits list")
+thislist = ["apple", "banana", "cherry"]
+thislist[1] = "blackcurrant"
+print(thislist)
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+thislist[1:3] = ["blackcurrant", "watermelon"]
+print(thislist)
+thislist = ["apple", "banana", "cherry"]
+thislist[1:2] = ["blackcurrant", "watermelon"]
+print(thislist)
+thislist = ["apple", "banana", "cherry"]
+thislist[1:3] = ["watermelon"]
+print(thislist)
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(2, "watermelon")
+print(thislist)
+thislist = ["apple", "banana", "cherry"]
+thislist.append("orange")
+print(thislist)
+thislist = ["apple", "banana", "cherry"]
+thislist.clear()
+print(thislist)
+thislist = ["apple", "banana", "cherry"]
+[print(x) for x in thislist]
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+for x in fruits:
+  if "a" in x:
+    newlist.append(x)
+print(newlist)
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.reverse()
+print(thislist)
+thislist = ["apple", "banana", "cherry"]
+mylist = list(thislist)
+print(mylist)
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+list1.extend(list2)
+print(list1)
+
+#python tuples
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)
+thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
+print(thistuple)
+thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple[-4:-1])
+thistuple = ("apple", "banana", "cherry")
+y = list(thistuple)
+y.remove("apple")
+thistuple = tuple(y)
+fruits = ("apple", "mango", "papaya", "pineapple", "cherry")
+(green, *tropic, red) = fruits
+print(green)
+print(tropic)
+print(red)
+thistuple = ("apple", "banana", "cherry")
+i = 0
+while i < len(thistuple):
+  print(thistuple[i])
+  i = i + 1
+  fruits = ("apple", "banana", "cherry")
+mytuple = fruits * 2
+print(mytuple)
+
+#python set
+thisset = {"apple", "banana", "cherry", True, 1, 2}
+print(thisset)
+myset = {"apple", "banana", "cherry"}
+print(type(myset))
+thisset = {"apple", "banana", "cherry"}
+print("banana" in thisset)
+thisset = {"apple", "banana", "cherry"}
+mylist = ["kiwi", "orange"]
+thisset.update(mylist)
+print(thisset)
+thisset = {"apple", "banana", "cherry"}
+thisset.discard("banana")
+print(thisset)
+thisset = {"apple", "banana", "cherry"}
+for x in thisset:
+  print(x)
+set1 = {"a", "b" , "c"}
+set2 = {1, 2, 3}
+set1.update(set2)
+print(set1)
+
+#python dictionaries
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964,
+  "year": 2020
+}
+print(thisdict)
+car = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 1964
+}
+x = car.keys()
+print(x) #before the change
+car["color"] = "white"
+print(x) #after the change
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict.update({"year": 2020})
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict.update({"color": "red"})
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+del thisdict["model"]
+print(thisdict)
+for x in thisdict.values():
+  print(x)
+  thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+mydict = dict(thisdict)
+print(mydict)
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+mydict = dict(thisdict)
+print(mydict)
+
+#python if...else
+x = 41
+
+if x > 10:
+  print("Above ten,")
+  if x > 20:
+    print("and also above 20!")
+  else:
+    print("but not above 20.")
+
+#python loop
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+else:
+  print("i is no longer less than 6")
+
+#python for loop
+  adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+
+for x in adj:
+  for y in fruits:
+    print(x, y)
+
